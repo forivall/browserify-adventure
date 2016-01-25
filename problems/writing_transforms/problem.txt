@@ -45,8 +45,8 @@ You will need to run browserify with `-t ./tr.js` where `tr.js` is the
 filename of your transform. Copy the main.js from the beginning of this
 problem description then to verify your solution, do:
 
-  browserify -t ./tr.js main.js | $ADVENTURE_COMMAND verify
+  browserify -g ./tr.js main.js | $ADVENTURE_COMMAND verify
 
 or to run your solution without verifying it do:
 
-  browserify -t ./tr.js main.js | $ADVENTURE_COMMAND run
+  browserify -g ./tr.js main.js | $ADVENTURE_COMMAND run
